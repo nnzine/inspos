@@ -12,6 +12,7 @@ Jordan (@eigen / @p3r7):
 - [Tempura](https://www.tempuramag.com/): socio-economic analysis of Japan
 - [fisheye](https://www.fisheyemagazine.fr/): indie photography magazine
 - [Foxfire](https://www.foxfire.org/about-foxfire/): written down stories of oral transmission from the Appalachian region (craftmanship, bushcraft...). peak DIY aestetics ([issue #01 is free](https://www.foxfire.org/wp-content/uploads/2017/06/first-foxfire-magazine-normal-web.pdf))
+- [n-o-d-e](https://n-o-d-e.net/zine/#): hw hacking, p2p technologies, radio coms
 
 Duncan (@radioedit)
 
