@@ -23,6 +23,10 @@ Duncan (@radioedit)
 - [Basic Paper Airplane](https://antiquatedfuture.com/zines/basic-paper-airplane-13-the-cassette-tape-issue/)
 - [Lines](https://www.etsy.com/uk/listing/879958573/lines-illustrated-poetry-book-zine)
 
+Tom (@tomw)
+
+- [Make Noise Zine](https://www.makenoisemusic.com/adjuncts#8)
+
 ## resources
 
 #### fonts
