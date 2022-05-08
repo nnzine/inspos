@@ -1,6 +1,6 @@
 # inspos
 
-inspiration & resources
+inspiration, resources, exploration
 
 ## inpirations
 
