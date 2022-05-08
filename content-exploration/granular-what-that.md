@@ -23,4 +23,8 @@ Sidetrack: I see the SC declare `var <buffers;` which has a funny-looking `<` th
 
 I have no idea how this thing works yet, but I see (a) that it is quite a bit shorter than I thought and (b) that it uses SC `GrainBuf` which I think I saw once... so maybe that is doing some heavy lifting. I suddenly realize that scripts should also be experienced, so I fire up my actual norns and play around a bit.
 
+Now I'm reading through the lua, which is quite a bit longer than the SC. A quick scan but then I start from the bottom and go upward, starting in `redraw` but then noticing that the real work is in `init`. Note that `enc` and `key` are both empty, so this script really doesn't take any norns input.
+
+Here in `init` I see things I expect. First a setup of grid button callbacks, then some stuff about polls and and recorders that I don't understand, a grid refresh loop, and finally a whole bunch of `params` setup, which is the main "UI" for this script.
+
 ... [TO BE CONTINUED] ...
