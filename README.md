@@ -52,3 +52,8 @@ Classic:
 - [PT Serif](https://fonts.google.com/specimen/PT+Serif)
 - [Literata](https://www.type-together.com/literata-font)
 - [Poppins](https://www.indiantypefoundry.com/fonts/poppins)
+
+
+### background patterns
+
+- [subtle patterns](https://www.toptal.com/designers/subtlepatterns/)
