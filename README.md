@@ -29,7 +29,8 @@ Tom (@tomw)
 
 ### general visuals
 
-[y2kaestheticinstitute](https://www.are.na/evan-collins-1522646491)
+- [y2kaestheticinstitute](https://www.are.na/evan-collins-1522646491)
+
 
 ## resources
 
