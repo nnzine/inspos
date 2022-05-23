@@ -27,6 +27,10 @@ Tom (@tomw)
 - [Make Noise Zine](https://www.makenoisemusic.com/adjuncts#8)
 
 
+### general visuals
+
+[y2kaestheticinstitute](https://www.are.na/evan-collins-1522646491)
+
 ## resources
 
 ### publishing guides
