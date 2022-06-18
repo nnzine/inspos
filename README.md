@@ -24,7 +24,7 @@ Duncan (@radioedit)
 
 Tom (@tomw)
 
-- [Make Noise Zine](https://www.makenoisemusic.com/adjuncts#8)
+- [Make Noise Zine](https://www.makenoisemusic.com/adjuncts#7)
 
 
 ### general visuals
