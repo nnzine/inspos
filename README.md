@@ -27,6 +27,12 @@ Tom (@tomw)
 - [Make Noise Zine](https://www.makenoisemusic.com/adjuncts#7)
 
 
+Retro publications:
+- [Whole Earth Catalog](https://archive.org/details/wholeearth)
+- [Mondo](https://archive.org/details/mondo2000magazine)
+- [OMNI](https://archive.org/details/omni-archive/Best_of_OMNI_1_1980/)
+
+
 ### general visuals
 
 - [y2kaestheticinstitute](https://www.are.na/evan-collins-1522646491)
