@@ -20,7 +20,7 @@ engine.name = 'PolyPerc'
 ```
 
 Now we build a sequence of four "random" frequencies:
-```
+```lua
 function init()
   math.randomseed(42) -- change this to explore!
   lead_notes = {}
