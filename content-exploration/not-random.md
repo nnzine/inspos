@@ -1,6 +1,6 @@
-Lua's `math.random()` returns a random number from 0.0 to 1.0. You can also pass in an integer instead and get a nice round number, `math.random(10)`.
+Lua's `math.random()` returns a random number from 0.0 to 1.0. You can also pass in an integer instead and get a nice round number, `math.random(10)`. We can use this as the foundation for collaboration between human and machine.
 
-Like most systems, this is actually a "pseudo-random number generator". `pseudo` is greek for "lying".... because this is not REALLY random. I don't mean that in the philosophical free-will vs determinism way either... I mean we can actually predict with 100% accuracy what number will come up next by doing something called "seeding" the random number generator. Try this on your norns:
+Like most systems, this is actually a "pseudo-random number generator". `pseudo` is greek for "lying".... because this is not REALLY random. I don't mean that in the philosophical free-will vs determinism way either... I mean we can actually predict with 100% accuracy what number will come up next by doing something called "seeding" the random number generator using `math.randomseed(...)`. Try this on your norns:
 
 ```lua
 math.randomseed(42)
@@ -12,7 +12,7 @@ print("A random number from 1..100. I predict it will be... mmmm.... 70")
 print("Random number:", math.random(100))
 ```
 
-We can use this as a simple way to explore generative music! Let's make a new norns script; first we'll set up the engine and sequins.
+We can use this as a powerful yet simple way to explore generative music! Let's make a new norns script; first we'll set up the engine and sequins.
 
 ```lua
 s = require 'sequins'
@@ -45,7 +45,9 @@ function lead()
 end
 ```
 
-This is pretty fun, but even better would be to have some other parts playing at the same time. Here we can generalize a bit, adding in a bass line:
+Run this and ou should get four repeating beeps looping. Now change the `42` to `43` and run it again -- you'll get a different "random" sequence. Now change it back to `42`.... and you're back to the first sequence! You have a whole lot of integers to choose from, so try out a bunch to see what different sounds you get.
+
+This is pretty fun, but even better would be to have some other parts playing at the same time. We'll give each part its own seed; that way you can modify one seed and explore while the other voices remain unchanged. Let's generalize a bit, building some general functions and adding in a bass line:
 
 ```lua
 -- Build a "random" sequence of frequencies
@@ -69,6 +71,8 @@ function run_seq(seq, sleep_time, release)
   end)
 end
 
+-- Here is where the script starts
+-- Set up two sequences (voices) and get them going!
 function init()
   local lead_seq = mkseq(42, 4, 400, 800) -- First param is the 'seed'
   local bass_seq = mkseq(7,  4, 50,  200) -- Change the seed!
