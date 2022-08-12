@@ -1,14 +1,14 @@
 Lua's `math.random()` returns a random number from 0.0 to 1.0. You can also pass in an integer instead and get a nice round number, `math.random(10)`. We can use this as the foundation for collaboration between human and machine.
 
-Like most systems, this is actually a "pseudo-random number generator". `pseudo` is greek for "lying".... because this is not REALLY random. I don't mean that in the philosophical free-will vs determinism way either... I mean we can actually predict with 100% accuracy what number will come up next by doing something called "seeding" the random number generator using `math.randomseed(...)`. Try this on your norns:
+Like most systems, this is actually a "pseudo-random number generator". `pseudo` is greek for "lying".... because this is not REALLY random. I don't mean that in the philosophical free-will vs determinism way either... I mean we can actually predict with 100% accuracy what number will come up next by doing something called "seeding" the random number generator using `math.randomseed(...)`. Try this on your norns REPL:
 
 ```lua
 math.randomseed(42)
-print("A random number from 1..100. I predict it will be... mmmm.... 4")
-print("Random number:", math.random(100))
 print("A random number from 1..100. I predict it will be... mmmm.... 33")
 print("Random number:", math.random(100))
 print("A random number from 1..100. I predict it will be... mmmm.... 70")
+print("Random number:", math.random(100))
+print("A random number from 1..100. I predict it will be... mmmm.... 43")
 print("Random number:", math.random(100))
 ```
 
