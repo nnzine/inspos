@@ -23,7 +23,7 @@ print("Random number:", math.random(100))
 > other tory-telling idea: make a parallel w/ loaded dice*
 
 
-## practical application
+## practical application: melody generator
 
 We can use this as a powerful yet simple way to explore generative music! Let's make a new norns script; first we'll set up the engine and sequins.
 
@@ -59,6 +59,9 @@ end
 ```
 
 Run this and ou should get four repeating beeps looping. Now change the `42` to `43` and run it again -- you'll get a different "random" sequence. Now change it back to `42`.... and you're back to the first sequence! You have a whole lot of integers to choose from, so try out a bunch to see what different sounds you get.
+
+
+## from melody to song
 
 This is pretty fun, but even better would be to have some other parts playing at the same time. We'll give each part its own seed; that way you can modify one seed and explore while the other voices remain unchanged. Let's generalize a bit, building some general functions and adding in a bass line:
 
@@ -96,6 +99,9 @@ end
 
 When you run this with the same seeds you will get the same tune. Change the lead part seed and only the "random" lead sounds change. Change the bass part seed and only the "random" bass sounds change. This way you can explore different lead parts and bass parts independently by changing these seeds!
 
+
+## going further
+
 You can add more parts, change the lengths and parameters of the existing parts, or even do other isolated "random" actions by setting another seed and generating some numbers for those actions.
 
 > *maybe turn it in a small list of excercises to try out.*
@@ -105,7 +111,7 @@ You can add more parts, change the lengths and parameters of the existing parts,
 > - *have the lengths of some parts be randomly generated*
 > - *have the seed of a sequence be randomly generated*
 > - *use `math.randomseed(os.time())` for a predicateble seeds*
-> - *have the sequence re-generate themselves randomly after they've looped*
+> - *have the sequence re-generate themselves randomly after they've looped for unpredictable mayhem*
 >
 > *we could host solutions to those in a github repo if people get stuck*
 
