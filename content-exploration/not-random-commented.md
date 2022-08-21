@@ -20,7 +20,7 @@ print("A random number from 1..100. I predict it will be... mmmm.... 43")
 print("Random number:", math.random(100))
 ```
 
-> other tory-telling idea: make a parallel w/ loaded dice*
+> *other story-telling idea: make a parallel w/ loaded dice*
 
 
 ## practical application: melody generator
