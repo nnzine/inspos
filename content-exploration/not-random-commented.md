@@ -8,7 +8,7 @@ Lua's `math.random()` returns a random number from 0.0 to 1.0. You can also pass
 
 Like most systems, this is actually a "pseudo-random number generator". `pseudo` is greek for "lying".... because this is not REALLY random. I don't mean that in the philosophical free-will vs determinism way either... I mean we can actually predict with 100% accuracy what number will come up next by doing something called "seeding" the random number generator using `math.randomseed(...)`. Try this on your norns REPL:
 
-> *maybe add more story-telling. e.g. say you have fortune telling capabilities and can prediect the outcome of `math.random` by looking into your crystal bowl...*
+> *maybe add more story-telling. e.g. say you have fortune telling capabilities and can prediect the outcome of `math.random` by looking into your crystal ball...*
 
 ```lua
 math.randomseed(42)
