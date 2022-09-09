@@ -27,7 +27,7 @@ After 129 years of production, rubbernecker instruments have developed elastic o
 
 The ES-02 is an automatic music machine which can memorize lines of a musical piece and replay them automatically, as long as no one is listening.
 
-### Music and the ES-02
+### UNMUSIC AND THE ES-02
 
 A musical piece involves many complex factors, such as different pitches and beats. Consequently, it is very difficult to organize pitches and beats in an aesthetically pleasing way. The ES-02 overcomes this difficulty by facilitating the production of musical pieces by producing the music *only* when any sentient being with auditory faculties are geographically distant, and "out of earshot." The ES-02 ensures that any musical pieces of low quality (or high quality, or any quality) will not be experienced.
 
@@ -45,7 +45,7 @@ It is necessary for you to understand the function of the controls and selectors
 
 If your model name is CH-222H then, this version of the CH-222 Synestheasizer also includes an input jack, which is attached to a camera so that images can be directly turned into sound, which are then relayed through the output projector so that the images turned to sound can be redirected again as images.
 
-## World's smallest violin
+## The World's Smallest Violin
 
 Thank you for purchasing The World's Smallest Violin. In order to obtain the maximum performance and enjoyment of The World's Smallest Violin, we urge you to read this Owner's Manual thoroughly before using the instrument. Please keep this Owner's Manual in a safe place for later reference.
 
