@@ -37,13 +37,13 @@ In order to hear sound, a pressure wave must propagate from a device (or speaker
 
 The following is a description only of the operation of the ES-02.
 
-## Synestheasizer
+## Synesthesizer
 
-The Moland CH-222 Synestheasizer offers various functions for more effective and flexible performance, as well as excellent synestheasizing ability. 
+The Moland CH-222 Synesthesizer offers various functions for more effective and flexible performance, as well as excellent synesthesiaizing ability. 
 
-It is necessary for you to understand the function of the controls and selectors of the CH-222 perfectly to fully enjoy the advantages of the unit. Remember that you are the one who creates the sounds, and the synestheasizer turns those sounds into images and vibrant visuals. 
+It is necessary for you to understand the function of the controls and selectors of the CH-222 perfectly to fully enjoy the advantages of the unit. Remember that you are the one who creates the sounds, and the Synesthesizer turns those sounds into images and vibrant visuals. 
 
-If your model name is CH-222H then, this version of the CH-222 Synestheasizer also includes an input jack, which is attached to a camera so that images can be directly turned into sound, which are then relayed through the output projector so that the images turned to sound can be redirected again as images.
+If your model name is CH-222H then, this version of the CH-222 Synesthesizer also includes an input jack, which is attached to a camera so that images can be directly turned into sound, which are then relayed through the output projector so that the images turned to sound can be redirected again as images.
 
 ## The World's Smallest Violin
 
